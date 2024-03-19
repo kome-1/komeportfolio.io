@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background: linear-gradient(to left(rgba(6, 0, 0, 0.877)) (rgb(12, 12, 159)));
+    font-family: "Roboto", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin-right: 1cm;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    margin-left: 15cm;
+    padding-top: 8cm;
+}
+
+.Home >h1{
+    font-size: 80px;
+    font: xx-large;
+}
+h2{
+    font-size: 25px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 12px 28px;
+    background: rgb(7, 70, 109);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(66, 158, 204);
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .About-me{
+    padding-top: 5cm;
+    
+  }
+.continue {
+    display: flex;
+    gap: 40px;
+    margin-left: 200px;
+}
+
+.continue p{
+    width: 800px;
+    height: 500px;
+}
+
+ .mine{
+    padding-top: 5cm;
+ }
+.container2{
+    padding-top: 5cm;
+}
+.con1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3{
+    padding-top: 8cm;
+}
